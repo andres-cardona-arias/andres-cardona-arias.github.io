@@ -65,10 +65,6 @@ main {
   
   .container-letter {
     position: relative;
-    @media screen and (max-width: 400px) {
-     padding-left: 10px;
-    padding-right: 10px;
-    }}
   }
   
    .cover {
