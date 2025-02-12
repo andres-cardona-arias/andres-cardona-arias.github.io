@@ -52,8 +52,18 @@
     background: rgb(248, 231, 234);
     width: 400px;
   }
-
-  main {
+@media (min-width: 400px) {
+    main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 420px 
+    }}
+  
+main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
