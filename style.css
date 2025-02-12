@@ -174,3 +174,37 @@ main {
   
     }
   }
+  @media (max-width: 600px) {
+    .cover {
+      position: absolute;
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-top: 50px solid #37a685;
+      border-bottom: 50px solid transparent;
+      transition: transform .75s;
+      transform-origin: top;
+    } 
+  
+    .paper {
+      font-family: "Caveat";
+      font-weight: 30;
+      position: absolute;
+      font-size: 20px;
+      padding-top: 10px;
+      text-align: center;
+      line-height: 20px;
+      z-index: -1;
+      background: rgb(248, 231, 234);
+      width: 200px;
+      height: 80px;
+      transition: all .75s;
+    }
+    
+     .letter {
+      border-left: 100px solid #8af8d7;
+      border-right: 100px solid #8af8d7;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid #6cd8b8;
+    }
+    
+   } 
